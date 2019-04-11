@@ -5,8 +5,15 @@ html,body{height: 100%;
     font-size: 16px;
     line-height: 32px;
 }
-#map_canvas1,#map_canvas2,#map_canvas3{
-    width: 33.33%;
+#page1{background-color: #4486F4;}
+#page2{background-color: #FFDD43;}
+#page3{background-color: #DB4539;}
+#map-container{
     height: 100%;
-    float: left;
+}
+
+#map_canvas{
+    width: 90%;
+    height: 620px;
+    margin: 0 auto;
 }
