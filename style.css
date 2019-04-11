@@ -5,6 +5,11 @@ html,body{height: 100%;
     font-size: 16px;
     line-height: 32px;
 }
+
+.content{
+    height: 100%;
+}
+
 #map_canvas1{background-color: #4486F4;}
 #map_canvas2{background-color: #FFDD43;}
 #map_canvas3{background-color: #DB4539;}
