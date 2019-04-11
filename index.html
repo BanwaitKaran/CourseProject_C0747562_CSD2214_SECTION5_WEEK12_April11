@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body,#map_canvas{
+            height:100%;
+            margin:0px;
+            padding:0px;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBwEzwkslA1IoBB_aUt1dn8GTT4LF0idPE"></script>
+    <script>
+        var map;
+        function initialize() {
+            var mapOptions={
+                zoom:20,
+                center:new google.maps.LatLng(48.858437,2.294494)
+            };
+            map=new google.maps.Map(document.getElementById('map_canvas'),mapOptions);
+        }
+        google.maps.event.addDomListener(window,'load',initialize);
+    </script>
+</head>
+<body>
+    <div id="map_canvas"> </div>
+</body>
+</html>
