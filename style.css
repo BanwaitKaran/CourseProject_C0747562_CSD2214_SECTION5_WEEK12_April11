@@ -5,9 +5,9 @@ html,body{height: 100%;
     font-size: 16px;
     line-height: 32px;
 }
-#page1{background-color: #4486F4;}
-#page2{background-color: #FFDD43;}
-#page3{background-color: #DB4539;}
+#map_canvas1{background-color: #4486F4;}
+#map_canvas2{background-color: #FFDD43;}
+#map_canvas3{background-color: #DB4539;}
 #map-container{
     height: 100%;
 }
